@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BimaAdityaRamadhan-1303223173-TPModul3</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px">
+    <h1 style="text-align: center">PROFILE DIRI</h1> <!--Tag digunakan agar text berada di tengah(center)-->
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px"> <!--Tag untuk membuat tabel beserta ukurannya-->
+        <caption style="font-weight: bold;">INFORMASI PRIBADI</caption> <!--Tag merubah text menjadi bold-->
+        <tr> <!--Tag digunakan untuk membuat row-->
+            <tr>
+                <th style="border: 1px solid black; padding: 8px; text-align: left">Atribut</th> <!--th untuk membuat kategori tabel-->
+                <th style="border: 1px solid black; padding: 8px; text-align: left">Detail</th>
+            </tr>
+            <td style="border: 1px solid black; padding: 8px;">Nama</td> <!--td untuk membuat isi data tabel-->
+            <td style="border: 1px solid black; padding: 8px;">Bima Aditya Ramadhan</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">Usia</td>
+            <td style="border: 1px solid black; padding: 8px;">20 tahun</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">Email</td>
+            <td style="border: 1px solid black; padding: 8px;">bimaaditya0711@gmail.com</td>
+        </tr>
+    </table>
+
+    <div class="profile-section"> <!--div untuk mengelompokkan elemen HTML agar terlihat rapih-->
+        <div>
+            <h2>Foto Profil</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr3jhpAFYpzxx39DRuXIYxNPXc0zI5F6IiMQ&s" alt="Foto Profil" style="width: 30%;">
+            <!--img untuk menampilkan gambar yang kita akan masukkan berupa url maupun tipe file-->
+        </div>
+        <div>
+            <h2>Video Perkenalan</h2>
+            <video controls style="width: 50%;"> <!--video untuk menampilkan video player-->
+                <source src="video_perkenalan.mp4" type="video/mp4"> <!--source untuk menentukan lokasi file video-->
+            </video>
+        </div>
+    </div>
+
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p>
+    <!--p digunakan untuk membuat text berada di paragraf terpisah-->
+    <h2>Keterampilan</h2>
+    <table>
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+
+    <h2>Hubungi Saya</h2>
+    <form action="submit_contact.php" method="post"> <!--form untuk membuat formulir yang dapat diisi-->
+        <input type="text" name="name" placeholder="Nama"><br> <!--input untuk mengisi data ke tempat yang dituju-->
+        <input type="email" name="email" placeholder="Email"><br>
+        <textarea name="message" placeholder="Pesan" rows="4"></textarea><br> <!--textarea menentukan area teks yang diisi-->
+        <button type="submit">Kirim Pesan</button> <!--button untuk mengirim pesan-->
+    </form>
+
+    <h2>Media Sosial:</h2>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/bima-aditya-ramadhan-078ba3267/">LinkedIn</a>
+        <tr> 
+            |
+            <a href="https://github.com/BimadityaR">GitHub</a> <!--a untuk mengisi teks biasa dengan hyperlink-->
+        </tr>
+            |
+        <a href="https://x.com/skyber14">Twitter</a>
+    </div>
+</body>
+</html>
